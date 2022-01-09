@@ -1,4 +1,0 @@
-name: ServerBrand
-version: ${project.version}
-author: "theminecoder, ConnorLinfoot"
-main: me.theminecoder.minecraft.serverbrand.ServerBrandBungeeCord

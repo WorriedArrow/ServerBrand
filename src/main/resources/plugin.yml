@@ -1,5 +1,9 @@
 name: ServerBrand
-version: ${project.version}
-main: me.theminecoder.minecraft.serverbrand.ServerBrandSpigot
+version: '${project.version}'
+main: com.zeroedmc.serverbrand.ServerBrandSpigot
+api-version: 1.18
+prefix: ServerBrand
+authors: [ WorriedArrow ]
+description: Sets the server's brands.
 commands:
   brand: {}

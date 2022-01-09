@@ -1,4 +1,4 @@
-package me.theminecoder.minecraft.serverbrand;
+package com.zeroedmc.serverbrand;
 
 import com.google.common.base.Charsets;
 import io.netty.buffer.ByteBuf;

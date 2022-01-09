@@ -1,8 +1,5 @@
-package me.theminecoder.minecraft.serverbrand;
+package com.zeroedmc.serverbrand;
 
-/**
- * @author theminecoder
- */
 @SuppressWarnings("WeakerAccess")
 public final class ServerBrandAPI {
 

@@ -1,4 +1,4 @@
-package me.theminecoder.minecraft.serverbrand;
+package com.zeroedmc.serverbrand;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -73,7 +73,7 @@ public final class ServerBrandSpigot extends JavaPlugin implements Listener, Ser
 
     private void updateBrand(Player player) {
         ByteBuf byteBuf = Unpooled.buffer();
-        ByteBufData.writeString(ChatColor.translateAlternateColorCodes('&', ServerBrandAPI.getInstance().getBrand()) + ChatColor.RESET, byteBuf);
+        ByteBufData.writeString(ChatColor.translateAlternateColorCodes('&', "&bZeroCord &7> &3SurfPowered") + ChatColor.RESET, byteBuf);
         player.sendPluginMessage(this, channel, ByteBufData.toArray(byteBuf));
         byteBuf.release();
     }
